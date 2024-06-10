@@ -26,7 +26,7 @@
     <!--Start Navbar-->
     <nav class="navbar fixed-top navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>">
                 <!-- <img src="<?php echo bloginfo('template_url'); ?>/images/bootstrap-logo.svg" alt="Logo" width="30" height="24"> -->
                 <?php bloginfo('name');?>
             </a>
