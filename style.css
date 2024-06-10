@@ -15,9 +15,26 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  */
 
-.suscribe{
-    background: url(images/bg.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 400px;
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.text-copy {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.fixed-footer {
+    bottom: 0;
 }
